@@ -1,0 +1,26 @@
+{
+	"name": "nativeui",
+	"version": "1.0.0",
+	"description": "RageMP NativeUI",
+	"main": "index.js",
+	"homepage": "https://github.com/wixcore/NativeUI#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wixcore/NativeUI.git"
+	},
+	"bugs": {
+		"url": "https://github.com/wixcore/NativeUI/issues"
+	},
+	"author": "ua.lifesheets <ua.lifesheets@outlook.com>",
+	"license": "GNU",
+	"scripts": {
+		"build": "gulp build"
+	},
+	"devDependencies": {
+		"@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#master",
+		"gulp": "^4.0.2",
+		"gulp-copy": "^4.0.1",
+		"ts-loader": "^9.4.4",
+		"webpack-stream": "^7.0.0"
+	}
+}
